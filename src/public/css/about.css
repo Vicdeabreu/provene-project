@@ -1,0 +1,116 @@
+.about-banner {
+  margin-top: 10vh;
+  background-image: url('../img/biosafe-cam2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: rgb(255, 255, 255);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.about-banner h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-banner button {
+  margin-bottom: 10vh;
+  padding: 0.5rem 2rem;
+}
+
+.about-btn-big {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.about-btn-big:hover {
+  background-color: #2fb86e;
+}
+
+p {
+  font-size: larger;
+}
+
+.about-services, .biosafety-benefits {
+  background-color: #fff;
+}
+
+ul {
+  list-style-image: url('/img/shield.png');
+}
+
+#services-list {
+  list-style-image: url('/img/shield.png');
+}
+
+li {
+  font-size: larger;
+  margin-bottom: 6px;
+}
+
+/* INICIO SECCION SERVICES */
+
+.services-banner {
+  margin-top: 10vh;
+  background-image: url('../img/biosafe-camera.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: var(--primary-black);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.services-banner h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.services-banner button {
+  margin-bottom: 10vh;
+  padding: 0.5rem 2rem;
+}
+
+/* FINAL DE LA SECCION SERVICES */ 
+
+/* INICIO DE LA SECCION OPPORTUNITIES */ 
+
+.opportunities-banner {
+  margin-top: 10vh;
+  background-image: url('../img/biosafe-opportunities.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.opportunities-banner h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.opportunities-banner button {
+  margin-bottom: 10vh;
+  padding: 0.5rem 2rem;
+}
+
+/* INICIO DE LA SECCIÓN SUCCESS */
+
+.success-message {
+  margin-top: 40vh;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <%- include('partials/head.html') -%>
+</head>
+<body>
+  <%- include('partials/navigation.html') -%>
+  <section class="home-banner">
+    <h1>Security for everyone</h1>
+    <button type="button" class="btn btn-primary home-btn-big" onclick="location.href='register.php'">OUR PRODUCTS</button>
+  </section>
+
+  <section class="container">
+      <div class="row justify-content-around align-itens-center home-card-section">
+        <article class="col-12 col-md-6 col-lg-4 pb-3">
+          <div class="home-card d-flex flex-column align-items-center">
+            <a href="#">
+              <img src="img/security-vision.png" class="home-card-img" aria-hidden="true" alt="biosafety vision">
+            </a>
+            <div>
+              <a href="about.html"><h4 class="card-title">Vision</h4></a>
+              <p class="card-text indent">At Biosafety Security LatAm, we believe in preciseness, efficiency and effectiveness.
+                  We provide security solutions which directly address client specific needs.
+                  We facilitate business ventures based on necessity and market potential, while creating global
+                  commercial relationships that leave their mark.</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 pb-3">
+          <div class="home-card d-flex flex-column align-items-center">
+            <a href="#" class="d-flex justify-content-center">  
+              <img src="img/security-mission.png" class="home-card-img home-card-img-sm" aria-hidden="true" alt="biosafety mission">
+            </a>
+            <div>
+              <a href="courses.php"><h4 class="card-title">Mission</h4></a>
+              <p class="card-text indent">Our mission is to mark and deliver the right technology for our clients. We connect the world to
+                entrepreneurs and enterprises with the right services or technologies to solve market needs. We
+                assist in making new ventures happen, from introductions and negotiations, to signing and
+                implementing the contract. We collaborate with our clients to grow their businesses easily,
+                swiftly and safely.</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 pb-3">
+          <div class="home-card d-flex flex-column align-items-center">
+            <a href="#" class="d-flex justify-content-center">  
+              <img src="img/security-val.png" id="card-home-img" class="home-card-img home-card-img-sm" aria-hidden="true" alt="biosafety values">
+            </a>
+            <div>
+              <a href="courses.php"><h4 class="card-title">Values</h4></a>
+              <p class="card-text indent">The Biosafety Security LatAm team provides you with direct and reliable connections to the
+                  enterprises and entrepreneurs behind world changing innovations in security solutions, bio
+                  safety technology, energy, fin-tech, and more. These innovations better the lives of millions of
+                  people every day, changing society and improving our world.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  <%- include('partials/footer.html') -%>
+</body>
+  <script src="https://use.fontawesome.com/cf8bb034e3.js"></script>
+</html>

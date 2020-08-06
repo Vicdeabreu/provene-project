@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #34cb79;
+  --secondary-color: #1034A6;
+  --primary-gray: rgb(117, 116, 116);
+}
+
+body {
+  background-image: url('../img/biosafe-cam.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card, .left-contact {
+  margin-top: 25vh;
+  border: none;
+}
+
+.card-header {
+  border: none;
+  border-radius: 8px;
+}
+
+.card-body {
+  background: #0000000a;
+}
+
+.btn-secondary {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+h3 {
+  justify-content: center;
+}
+
+p, address {
+  display: flex;
+  font-size: larger;
+}
+
+a {
+  margin-left: 5px;
+}
+

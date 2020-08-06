@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <%- include('partials/head.html') -%>
+  <link rel="stylesheet" href="/css/about.css">
+</head>
+<body>
+  <%- include('partials/navigation.html') -%>
+
+    <section class="container-fluid text-center success-message pt-4">
+      <div class="container">
+        <h2 class="text-uppercase pb-3">Thank you for your email</h2>
+        <p class="mr-3 justify-content-center">An email has been sent to us, and you will receive an feedback shortly</p>
+        <button type="button" class="btn btn-primary about-btn-big" onclick="location.href='/'">BACK TO HOME</button>
+      </div>
+    </section>
+
+
+
+
+  <%- include('partials/footer.html') -%>
+</body>
+</html>

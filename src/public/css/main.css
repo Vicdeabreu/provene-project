@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #34cb79;
+  --secondary-color: #1034A6;
+  --primary-gray: rgb(117, 116, 116);
+}
+
+body {
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Inicio Header */
+
+.menu {
+  box-shadow: 0 4px 2px -2px var(--primary-color);
+  z-index: 99;
+  height: 15vh;
+}
+
+/* Final Header */
+
+/* Inicio HOME */
+
+.navbar-nav {
+  box-shadow: var(--primary-color);
+}
+
+.home-banner {
+  margin-top: 10vh;
+  background-image: url('../img/biosafe-cam.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: rgb(68, 68, 68);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.home-banner h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.home-banner button {
+  margin-bottom: 10vh;
+  padding: 0.5rem 2rem;
+}
+
+.home-btn-big {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.home-btn-big:hover {
+  background-color: #2fb86e;
+}
+
+.home-card {text-align: center;}
+
+.home-card-img {
+  height: 50%;
+  width: 50%;
+}
+
+#card-home-img {
+  height: 56%;
+  width: 56%;
+}
+
+.home-card-section {
+  margin: 2rem 0;
+  height: 50vh;
+}
+
+.home-card .card-title {
+  font-weight: bold;
+  color: var(--primary-gray);
+  margin-top: 0.5em;
+  border-bottom: solid 2px var(--primary-color);
+}
+
+/* Final HOME */
+
+
+/* FOOTER */
+
+footer {
+  background:#292929;
+  bottom: 0;
+  position: relative;
+  margin-top: 28vh;
+  padding: 2% 0;
+}
+
+.footer-left-content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-left-title {
+  color:#FFF;
+  justify-content: center;
+}
+
+footer p {
+  color: #FFF;
+  justify-content: center;
+}
+
+footer p:hover {
+  color: var(--primary-color);
+}
+
+footer img {width: 10vw;}
+
+.footer-social-networks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+}
+
+#footer-ig, #footer-tw, #footer-fb {
+  margin: 0 8px 0 8px;
+}
+
+#footer-ig:hover, #footer-tw:hover, #footer-fb:hover, .footer-left-title:hover{
+  color: var(--primary-color);
+}

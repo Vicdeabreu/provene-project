@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <%- include('partials/head.html') -%>
+  <link rel="stylesheet" href="/css/about.css">
+</head>
+<body>
+  <%- include('partials/navigation.html') -%>
+
+    <section class="services-banner">
+      <h1>What we do</h1>
+      <button type="button" class="btn btn-primary about-btn-big" onclick="location.href='/'">BACK TO HOME</button>
+    </section>
+
+    <section class="container text-center border-config py-5">
+      <div class="container"> 
+          
+          <h2 class="text-uppercase mb-2">Solutions builders</h2>
+          <p class="mr-3 justify-content-center">Biosafety Security LatAm prides itself on providing our clients with fast, accurate, reliable and
+          effective technological solutions to diverse and changing challenges.</p>
+      </div>
+    </section>
+
+    <section class="container-fluid about-services">
+      <div class="row p-4 py-3">
+        <div class="container d-flex">
+          <img src="img/biosafe-room.jpg" aria-hidden="true" alt="" class="col-sm-4 col-lg-5">
+          <div class="col-sm-7 col-lg-8 mt-2 ml-4">
+            <h2 class="text-uppercase mb-4">Security solutions</h2>
+            <p>
+              Biosafety Security LatAm provides security solutions, which directly address client specific
+              needs. Our management team, composed of Israeli Security veterans, is highly experienced with
+              both domestic and international security projects. We work to identify and plan the strategic
+              security solution and introduce the high-end technologies available in the market.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid border-config pt-4">
+        <div class="row p-4 py-3">
+          <div class="container d-flex"> 
+              <div class="col-sm-7 col-lg-6 mb-3">
+                <h2 class="text-uppercase text-center mb-4">Service provider</h2>
+                <p>Biosatefy Security LatAm serves private and public sectors, which all benefit from our variety of
+                critical sites security-related services, such as:</p>
+                <ul>
+                  <li>Threat and Risk Assessment</li>
+                  <li>Develop a Security Concept of Operation (CONOP)</li>
+                  <li>Develop a site-based Security Operational Procedure (SOP)</li>
+                  <li>Develop a Security Concept and provide the Technology based on high-end Products
+                  such as:</li>
+                  <ul id="services-list">
+                    <li>Radars</li>
+                    <li>Sensors</li>
+                    <li>EO</li>
+                    <li>FR Systems</li>
+                    <li>Drones</li>
+                    <li>And capabilities required by operational challenges</li>
+                    <li>Professional training</li>
+                    <li>Protecting sensitive facilities</li>
+                    <li>Cyber protection at all levels</li>
+                  </ul>
+                </ul>
+              </div>
+              <img src="img/biosafe-services-guard.jpg" aria-hidden="true" alt="" class="col-sm-4 col-lg-6 image-about">
+            </div>
+          </div>
+    </section>
+
+  <%- include('partials/footer.html') -%>
+</body>
+</html>
