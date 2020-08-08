@@ -4,27 +4,23 @@ const router = express.Router();
 require('dotenv').config();
 
 router.get('/', (req,res) => {
-  res.render('index.html', {title: 'Biosafety'});
+  res.render('index.html', {title: 'Provene'});
 })
 
 router.get('/contact', (req,res) => {
-  res.render('contact.html', {title: 'Contact Biosafety'});
+  res.render('contact.html', {title: 'Contacto'});
 })
 
 router.get('/about', (req,res) => {
-  res.render('about.html', {title: 'About Biosafety'});
+  res.render('about.html', {title: 'Nosotros'});
 })
 
 router.get('/services', (req,res) => {
-  res.render('services.html', {title: 'What we do'});
-})
-
-router.get('/opportunities', (req,res) => {
-  res.render('opportunities.html', {title: 'Opportunities'});
+  res.render('services.html', {title: 'Productos'});
 })
 
 router.get('/success', (req,res) => {
-  res.render('success.html', {title: 'Message sent'});
+  res.render('success.html', {title: 'Mensaje enviado'});
 })
 
 router.post('/send-email', async (req,res) => {
@@ -54,9 +50,9 @@ router.post('/send-email', async (req,res) => {
   });
 
   const info = await transporter.sendMail({
-    from: "'User contact' <vmanuel.deabreu1@gmail.com>",
-    to: 'vicdeabreu@gmail.com',
-    subject: 'Contacto desde Bioservice',
+    from: "'User contact' <contactoprovene@gmail.com>",
+    to: 'vmanuel.deabreu1@gmail.com',
+    subject: 'Contacto desde Provene',
     html: contentHTML
   });
 
