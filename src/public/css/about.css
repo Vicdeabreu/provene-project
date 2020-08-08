@@ -36,10 +36,6 @@ p {
   font-size: larger;
 }
 
-.about-services, .biosafety-benefits {
-  background-color: #fff;
-}
-
 ul {
   list-style-image: url('/img/shield.png');
 }
