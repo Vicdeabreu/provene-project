@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #34cb79;
+  --primary-color: #699536;
   --secondary-color: #1034A6;
+  --third-color: #2fb86e;
   --primary-gray: rgb(117, 116, 116);
 }
 
@@ -28,11 +29,11 @@ body {
 
 .home-banner {
   margin-top: 10vh;
-  background-image: url('../img/biosafe-cam.jpg');
+  background-image: url('../img/provene-banner.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 90vh;
-  color: rgb(68, 68, 68);
+  color: var(--primary-color);
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -57,14 +58,15 @@ body {
 }
 
 .home-btn-big:hover {
-  background-color: #2fb86e;
+  background-color: var(--primary-gray);
 }
 
 .home-card {text-align: center;}
 
 .home-card-img {
-  height: 50%;
-  width: 50%;
+  height: 65%;
+  width: 65%;
+  border-radius: 5px;
 }
 
 #card-home-img {
@@ -90,7 +92,7 @@ body {
 /* FOOTER */
 
 footer {
-  background:#292929;
+  background: var(--primary-color);
   bottom: 0;
   position: relative;
   margin-top: 28vh;
@@ -101,7 +103,6 @@ footer {
   display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .footer-left-title {
@@ -111,14 +112,13 @@ footer {
 
 footer p {
   color: #FFF;
-  justify-content: center;
 }
 
 footer p:hover {
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 
-footer img {width: 10vw;}
+footer img {width: 12vw;}
 
 .footer-social-networks {
   display: flex;
@@ -132,5 +132,5 @@ footer img {width: 10vw;}
 }
 
 #footer-ig:hover, #footer-tw:hover, #footer-fb:hover, .footer-left-title:hover{
-  color: var(--primary-color);
+  color: var(--third-color);
 }

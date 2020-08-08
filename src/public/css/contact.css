@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #34cb79;
+  --primary-color: #699536;
   --secondary-color: #1034A6;
   --primary-gray: rgb(117, 116, 116);
 }
 
 body {
-  background-image: url('../img/biosafe-cam.jpg');
+  background-color: var(--primary-gray);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +35,6 @@ h3 {
 }
 
 p, address {
-  display: flex;
   font-size: larger;
 }
 

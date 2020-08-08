@@ -1,6 +1,6 @@
 .about-banner {
   margin-top: 10vh;
-  background-image: url('../img/biosafe-cam2.jpg');
+  background-image: url('../img/provene-banner-nosotros.jpg');
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -57,11 +57,11 @@ li {
 
 .services-banner {
   margin-top: 10vh;
-  background-image: url('../img/biosafe-camera.jpg');
+  background-image: url('../img/provene-servicios.jpg');
   background-size: cover;
   background-position: center;
   height: 90vh;
-  color: var(--primary-black);
+  color: #FFF;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -80,37 +80,4 @@ li {
   padding: 0.5rem 2rem;
 }
 
-/* FINAL DE LA SECCION SERVICES */ 
-
-/* INICIO DE LA SECCION OPPORTUNITIES */ 
-
-.opportunities-banner {
-  margin-top: 10vh;
-  background-image: url('../img/biosafe-opportunities.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-  color: #fff;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.opportunities-banner h1 {
-  text-transform: uppercase;
-  font-family: 'Roboto';
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.opportunities-banner button {
-  margin-bottom: 10vh;
-  padding: 0.5rem 2rem;
-}
-
-/* INICIO DE LA SECCIÓN SUCCESS */
-
-.success-message {
-  margin-top: 40vh;
-}
+/* FINAL DE LA SECCION PRODUCTOS */ 
